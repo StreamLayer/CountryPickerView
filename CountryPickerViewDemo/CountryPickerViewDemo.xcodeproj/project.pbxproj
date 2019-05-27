@@ -255,15 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CountryPickerViewDemo/Pods-CountryPickerViewDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CountryPickerView-iOS/CountryPickerView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPickerView.framework",
 			);
@@ -277,28 +273,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-<<<<<<< HEAD
-				"${PODS_ROOT}/Target Support Files/Pods-CountryPickerViewDemo/Pods-CountryPickerViewDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CountryPickerView/CountryPickerView.framework",
-=======
 				"${PODS_ROOT}/Target Support Files/Pods-CountryPickerViewTVDemo/Pods-CountryPickerViewTVDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CountryPickerView-tvOS/CountryPickerView.framework",
->>>>>>> c442b324b83214abdee171fa8a021ad82a59f8d7
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPickerView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-<<<<<<< HEAD
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CountryPickerViewDemo/Pods-CountryPickerViewDemo-frameworks.sh\"\n";
-=======
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CountryPickerViewTVDemo/Pods-CountryPickerViewTVDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
@@ -322,7 +306,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
->>>>>>> c442b324b83214abdee171fa8a021ad82a59f8d7
 			showEnvVarsInLog = 0;
 		};
 		FBD015984CE10E7BD30F91BD /* [CP] Check Pods Manifest.lock */ = {
