@@ -10,13 +10,19 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target = '10.0'
 
   spec.source       = { :git => "https://github.com/StreamLayer/CountryPickerView.git", :tag => spec.version }
-  spec.source_files  = "Sources/**/*.{swift,xib}"
+  spec.source_files  = "Sources/**/*.{swift}"
+  
   spec.ios.source_files  = "CountryPickerViewiOS/**/*.{swift}"
-  spec.tvos.source_files  = "CountryPickerViewTVOS/**/*.{swift}"
-  spec.resource_bundles = {
+  spec.ios.resource_bundle = {
     'CountryPickerView' => ['Sources/Assets/CountryPickerView.bundle/*',
-    'CountryPickerView/**/*.{xib}']
+    'CountryPickerViewiOS/**/*.{xib}']
   }
+  
+  spec.tvos.source_files  = "CountryPickerViewTVOS/**/*.{swift}"
+  spec.tvos.resource_bundle = {
+    'CountryPickerView' => ['Sources/Assets/CountryPickerView.bundle/*',
+    'CountryPickerViewTVOS/**/*.{xib}']
+  }
+  
   spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
-
 end
