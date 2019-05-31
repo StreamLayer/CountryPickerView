@@ -1,13 +1,15 @@
+workspace "CountryPickerView"
+project "CountryPickerView.xcodeproj"
 
 use_frameworks!
 
-target 'CountryPickerViewDemo' do 
+target 'CountryPickerViewDemo' do
   platform :ios, '8.0'
-  pod 'CountryPickerView', :path => '../'  
+  pod 'CountryPickerView', :path => '../'
 end
 
 target 'CountryPickerViewTVDemo' do
   platform :tvos, '10.0'
-  pod 'CountryPickerView', :path => '../'  
+  pod 'CountryPickerView', :path => '../'
 
 end

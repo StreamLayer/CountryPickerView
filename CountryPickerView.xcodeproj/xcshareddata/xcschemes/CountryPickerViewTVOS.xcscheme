@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "004CA2EA1F7056E700B690B8"
+               BlueprintIdentifier = "51BFE50D21E047A4001F21DE"
                BuildableName = "CountryPickerView.framework"
-               BlueprintName = "CountryPickerView"
+               BlueprintName = "CountryPickerViewTVOS"
                ReferencedContainer = "container:CountryPickerView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "004CA2EA1F7056E700B690B8"
+            BlueprintIdentifier = "51BFE50D21E047A4001F21DE"
             BuildableName = "CountryPickerView.framework"
-            BlueprintName = "CountryPickerView"
+            BlueprintName = "CountryPickerViewTVOS"
             ReferencedContainer = "container:CountryPickerView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "004CA2EA1F7056E700B690B8"
+            BlueprintIdentifier = "51BFE50D21E047A4001F21DE"
             BuildableName = "CountryPickerView.framework"
-            BlueprintName = "CountryPickerView"
+            BlueprintName = "CountryPickerViewTVOS"
             ReferencedContainer = "container:CountryPickerView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
